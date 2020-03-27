@@ -57,12 +57,14 @@ public class SnakeGame extends JPanel implements ActionListener {
         }
 
         // закрашиваем квадрат
+        // Для чего этот таймер? что он тут делает? Если ты хочешь какой-то отдельный таймер для движения еды - то так это не делается.
         Timer t = new Timer(900000000/SPEED, this);
         t.start();
         int a = 0;
         int b = 39;
 
 
+        // Естественно это меняется каждый раз, когда рисуется поле.
         int random_foodx = a + (int) (Math.random() * b);
         // System.out.println("1-ое случайное число: " + random_foodx);
 
@@ -77,6 +79,7 @@ public class SnakeGame extends JPanel implements ActionListener {
 
     }
     // фуркция для цвета
+    // Совершенно не нужнай функция. К тому же - попробуй использовать, например, так Color.RED
     public Color color(int red, int green, int blue) {
         return new Color(red, green, blue);
     }
@@ -101,6 +104,8 @@ public class SnakeGame extends JPanel implements ActionListener {
         // это движение змейки
 
     }
+
+    // Вот интересно - для Keyboard ты сделал отдельный класс, а для ActionListener - нет. Почему? Сделай для обоих
     private class Keyboard extends KeyAdapter {
         public void keyPressed(KeyEvent kEvt) {
             int key = kEvt.getKeyCode();

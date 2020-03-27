@@ -1,6 +1,7 @@
 package ixn.snakegame.objekts;
 
 public class Snake {
+    // Круто, что энумератор используешь ))
 public enum Direction {
     RIGHT, LEFT, DOWN, UP
     }
@@ -27,6 +28,8 @@ public enum Direction {
        switch(direction) {
 
            case RIGHT:
+               // Лучше и правильнее использовать префикс: ++snakeX[0]
+               // Разница в том, что в постфиксе создаётся копия перед операцией, а в префиксе - нет.
                snakeX[0]++;
                break;
            case LEFT:
