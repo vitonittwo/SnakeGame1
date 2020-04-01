@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7e727ea-2d6f-4e65-b17a-7fd82af33ed7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Grafic/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Grafic/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Grafic/.idea/workspace.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Grafic/Grafic.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame1/ixn/snakegame/SnakeGame$Keyboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame1/ixn/snakegame/SnakeGame$Keyboard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame1/ixn/snakegame/SnakeGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame1/ixn/snakegame/SnakeGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame1/ixn/snakegame/objekts/Snake$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame1/ixn/snakegame/objekts/Snake$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame1/ixn/snakegame/objekts/Snake$Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame1/ixn/snakegame/objekts/Snake$Direction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame1/ixn/snakegame/objekts/Snake.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame1/ixn/snakegame/objekts/Snake.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ixn/snakegame/SnakeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ixn/snakegame/SnakeGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,25 +92,33 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="688" y="394" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1680.1010/1680.0.1280.680@0.0.1680.1010" timestamp="1584951761004" />
-    <state width="1637" height="263" key="GridCell.Tab.0.bottom" timestamp="1585231618071">
+    <state width="1637" height="263" key="GridCell.Tab.0.bottom" timestamp="1585588382671">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="263" key="GridCell.Tab.0.bottom/0.0.1680.1010/1680.0.1280.680@0.0.1680.1010" timestamp="1585231618071" />
-    <state width="1637" height="263" key="GridCell.Tab.0.center" timestamp="1585231618070">
+    <state width="1637" height="263" key="GridCell.Tab.0.bottom/0.0.1680.1010/1680.0.1280.680@0.0.1680.1010" timestamp="1585588382671" />
+    <state width="1637" height="263" key="GridCell.Tab.0.center" timestamp="1585588382671">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="263" key="GridCell.Tab.0.center/0.0.1680.1010/1680.0.1280.680@0.0.1680.1010" timestamp="1585231618070" />
-    <state width="1637" height="263" key="GridCell.Tab.0.left" timestamp="1585231618070">
+    <state width="1637" height="263" key="GridCell.Tab.0.center/0.0.1680.1010/1680.0.1280.680@0.0.1680.1010" timestamp="1585588382671" />
+    <state width="1637" height="263" key="GridCell.Tab.0.left" timestamp="1585588382671">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="263" key="GridCell.Tab.0.left/0.0.1680.1010/1680.0.1280.680@0.0.1680.1010" timestamp="1585231618070" />
-    <state width="1637" height="263" key="GridCell.Tab.0.right" timestamp="1585231618070">
+    <state width="1637" height="263" key="GridCell.Tab.0.left/0.0.1680.1010/1680.0.1280.680@0.0.1680.1010" timestamp="1585588382671" />
+    <state width="1637" height="263" key="GridCell.Tab.0.right" timestamp="1585588382671">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="263" key="GridCell.Tab.0.right/0.0.1680.1010/1680.0.1280.680@0.0.1680.1010" timestamp="1585231618070" />
-    <state x="536" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1585231605263">
+    <state width="1637" height="263" key="GridCell.Tab.0.right/0.0.1680.1010/1680.0.1280.680@0.0.1680.1010" timestamp="1585588382671" />
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1585576383063">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="536" y="329" key="com.intellij.ide.util.TipDialog/0.0.1680.1010/1680.0.1280.680@0.0.1680.1010" timestamp="1585231605263" />
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010/1680.0.1280.680@0.0.1680.1010" timestamp="1585576383063" />
+    <state x="536" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1585563525099">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="536" y="329" key="com.intellij.ide.util.TipDialog/0.0.1680.1010/1680.0.1280.680@0.0.1680.1010" timestamp="1585563525099" />
+    <state x="222" y="125" key="new project wizard" timestamp="1585387172018">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="222" y="125" key="new project wizard/0.0.1680.1010/1680.0.1280.680@0.0.1680.1010" timestamp="1585387172018" />
   </component>
 </project>

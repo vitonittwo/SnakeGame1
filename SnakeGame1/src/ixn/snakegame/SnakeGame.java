@@ -58,9 +58,10 @@ public class SnakeGame extends JPanel implements ActionListener {
 
         // закрашиваем квадрат
         // Для чего этот таймер? что он тут делает? Если ты хочешь какой-то отдельный таймер для движения еды - то так это не делается.
-        Timer t = new Timer(900000000/SPEED, this);
-        t.start();
-        int a = 0;
+        // Timer t = new Timer(900000000/SPEED, this);
+       // t.start();
+        // :) убрал...
+        int a = 1;
         int b = 39;
 
 
@@ -71,7 +72,9 @@ public class SnakeGame extends JPanel implements ActionListener {
         int random_foody = a + (int) (Math.random() * b);
         // System.out.println("2-ое случайное число: " + random_foody);
 
-        g.setColor(color(200, 0, 0));
+       // g.setColor(color(200, 0, 0));
+        // ты это имел ввиду? А как для других цветов, кроме RGB?
+        g.setColor(Color.RED);
         g.fillRect(random_foodx * SCALE + 1, random_foody * SCALE + 1, SCALE - 1, SCALE - 1);
 
 
@@ -80,6 +83,7 @@ public class SnakeGame extends JPanel implements ActionListener {
     }
     // фуркция для цвета
     // Совершенно не нужнай функция. К тому же - попробуй использовать, например, так Color.RED
+    // см. выше...76 и ...  63
     public Color color(int red, int green, int blue) {
         return new Color(red, green, blue);
     }
